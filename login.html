@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+font-family: calibri, helvetica, sans-serif;
+background-color: pink;
+}
+button{
+       background-color; #4CAF50;
+       width: 100%
+       color: orange;
+       padding: 15px;
+       margin: 10px 0px;
+       border: none;
+       cursor: pointer;
+      }
+form {
+      border: 3px solid #f1f1f1;
+     }
+input[type=text], input[type=password]{
+       width: 100%
+       margin: 8px 0px;
+       padding: 12px 20px ;
+       border: 2PX solid green;
+       box-sizing: border-box;
+     }
+button:hover{
+      opacity:0.7;
+     }
+ .cancelbtn{
+        width: auto;
+        padding: 10px 18px ;
+        margin: 10px 5px;
+   }
+ .container{
+      padding: 25px;
+      background-color: lightblue;
+  }
+</style>
+</head>
+<body>
+    <center> <h1> student login form</h1> </center>
+    <form>
+       <div class="container"><br>
+           <labe>Username : </label><br>
+           <input type="text" placeholder="Enter Username" name="username" required><br>
+           <label>password : </label><br>
+           <input type="password" placeholder="Enter password" name="password" required><br>
+           <button type="submit">login</button><br>
+           <input type="checkbox" checked="checked"> rember me
+           <button type="button" class="cancelbtn">cancel</button>
+           Forgot <a heref="#"> password? </a>
+      </div>
+     </form>
+  </body>
+</html>
